@@ -1,0 +1,16 @@
+#verduras {
+	margin: auto;
+	background-size: cover;
+	width: 100%;
+    border-spacing: 15px;
+  /*  padding: 40px;*/
+}
+
+body {
+	background-repeat: no-repeat;
+	background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+	/*height: 800px;*/
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> LF
+	la fruteta	</title>
+<style> 
+#animation1 {
+
+	width: 100px;
+	height: 100px;
+	background-image:url(../logo/lf.png);
+	position: relative;
+	-webkit-animation: mymove 10s ; /*safari 4.0 - 8.0 */
+	animation: mymove 10s ; 
+	animation-fill-mode: forwards;
+}
+/* safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+	from {left: 0px;}
+	to{left: 400px;}
+}
+
+@keyframes mymove {
+	from {left: 0px;}
+	to{left: 400px;}
+}
+
+</style>
+</head>
+<body>
+
+<div id="animation1">
+ <img src="../logo/lf.png">
+</div>
+</body>
+</html>
